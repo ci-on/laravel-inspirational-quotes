@@ -1,13 +1,13 @@
 <?php
 
-namespace Cion\LaravelInspirationalQuotes;
+namespace Cion\InspirationalQuotes;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Cion\LaravelInspirationalQuotes\Skeleton\SkeletonClass
+ * @see \Cion\InspirationalQuotes\Skeleton\SkeletonClass
  */
-class LaravelInspirationalQuotesFacade extends Facade
+class InspirationalQuotesFacade extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -16,6 +16,6 @@ class LaravelInspirationalQuotesFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'laravel-inspirational-quotes';
+        return 'inspirational-quote';
     }
 }

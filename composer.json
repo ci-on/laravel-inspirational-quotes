@@ -3,9 +3,12 @@
     "description": "php artisan inspire on steroids.",
     "keywords": [
         "cion",
-        "laravel-inspirational-quotes"
+        "inspirational-quotes",
+        "inspirational",
+        "quotes",
+        "laravel"
     ],
-    "homepage": "https://github.com/cion/laravel-inspirational-quotes",
+    "homepage": "https://github.com/ci-on/laravel-inspirational-quotes",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -25,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Cion\\LaravelInspirationalQuotes\\": "src"
+            "Cion\\InspirationalQuotes\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Cion\\LaravelInspirationalQuotes\\Tests\\": "tests"
+            "Cion\\InspirationalQuotes\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,10 +47,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Cion\\LaravelInspirationalQuotes\\LaravelInspirationalQuotesServiceProvider"
+                "Cion\\InspirationalQuotes\\InspirationalQuotesServiceProvider"
             ],
             "aliases": {
-                "LaravelInspirationalQuotes": "Cion\\LaravelInspirationalQuotes\\LaravelInspirationalQuotesFacade"
+                "InspirationalQuote": "Cion\\InspirationalQuotes\\InspirationalQuotesFacade"
             }
         }
     }
