@@ -3,7 +3,6 @@
 namespace Cion\InspirationalQuotes\Tests;
 
 use Orchestra\Testbench\TestCase as BaseTestCase;
-use Illuminate\Support\Facades\Artisan;
 
 class TestCase extends BaseTestCase
 {
