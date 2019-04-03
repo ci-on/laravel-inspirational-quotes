@@ -47,10 +47,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Cion\\InspirationalQuotes\\InspirationalQuotesServiceProvider"
+                "Cion\\InspirationalQuotes\\ServiceProvider"
             ],
             "aliases": {
-                "InspirationalQuote": "Cion\\InspirationalQuotes\\InspirationalQuotesFacade"
+                "InspirationalQuote": "Cion\\InspirationalQuotes\\Facades\\InspirationalQuote"
             }
         }
     }

@@ -1,13 +1,13 @@
 <?php
 
-namespace Cion\InspirationalQuotes;
+namespace Cion\InspirationalQuotes\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * @see \Cion\InspirationalQuotes\Skeleton\SkeletonClass
  */
-class InspirationalQuotesFacade extends Facade
+class InspirationalQuote extends Facade
 {
     /**
      * Get the registered name of the component.

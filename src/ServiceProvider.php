@@ -2,9 +2,9 @@
 
 namespace Cion\InspirationalQuotes;
 
-use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
-class InspirationalQuotesServiceProvider extends ServiceProvider
+class ServiceProvider extends BaseServiceProvider
 {
     /**
      * Bootstrap the application services.
@@ -31,7 +31,7 @@ class InspirationalQuotesServiceProvider extends ServiceProvider
 
         // Register the main class to use with the facade
         $this->app->singleton('inspirational-quote', function () {
-            return new InspirationalQuotes;
+            return new QuoteFactory;
         });
     }
 }
