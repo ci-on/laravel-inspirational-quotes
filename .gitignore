@@ -1,5 +1,8 @@
-build
 composer.lock
-docs
+phpunit.xml
 vendor
+build
+tests/.phpunit.result.cache
+.phpunit.result.cache
+docs
 coverage
