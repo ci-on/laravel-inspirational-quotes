@@ -9,6 +9,10 @@ class QuoteFactoryTest extends TestCase
     /** @test */
     public function it_returns_a_random_quote()
     {
-        $this->assertContains(InspirationalQuote::getRandomQuote(), InspirationalQuote::quotes());
+        $quotes = InspirationalQuote::quotes();
+
+        for ($i = 0; $i < count($quotes); $i++) {
+            $this->assertContains(InspirationalQuote::getRandomQuote(), $quotes);
+        }
     }
 }
