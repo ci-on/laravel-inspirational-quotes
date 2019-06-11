@@ -2,16 +2,26 @@
 
 namespace Cion\InspirationalQuotes\Tests;
 
-use Orchestra\Testbench\TestCase;
 use Cion\InspirationalQuotes\Facades\InspirationalQuote;
 
 class QuoteFactoryTest extends TestCase
 {
+    protected $quotes = [
+        [
+            'quote' => 'When there is no desire, all things are at peace.',
+            'author' => 'Laozi',
+            'avatar' => 'image'
+        ],
+        [
+            'quote' => 'Simplicity is the ultimate sophistication.',
+            'author' => 'Leonardo da Vinci',
+            'avatar' => 'image'
+        ]
+    ];
+
     /** @test */
     public function it_returns_a_random_quote()
     {
-        dd(InspirationalQuote::getRandomQuote());
-
-        $this->assertTrue(true);
+        $this->assertContains(InspirationalQuote::getRandomQuote(), $this->quotes);
     }
 }
