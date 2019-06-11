@@ -2,10 +2,10 @@
 
 namespace Cion\InspirationalQuotes\Tests;
 
+use Cion\InspirationalQuotes\QuoteFactory;
+use Cion\InspirationalQuotes\ServiceProvider;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 use Cion\InspirationalQuotes\Facades\InspirationalQuote;
-use Cion\InspirationalQuotes\ServiceProvider;
-use Cion\InspirationalQuotes\QuoteFactory;
 
 class TestCase extends BaseTestCase
 {

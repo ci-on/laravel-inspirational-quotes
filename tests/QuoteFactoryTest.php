@@ -10,13 +10,13 @@ class QuoteFactoryTest extends TestCase
         [
             'quote' => 'When there is no desire, all things are at peace.',
             'author' => 'Laozi',
-            'avatar' => 'image'
+            'avatar' => 'image',
         ],
         [
             'quote' => 'Simplicity is the ultimate sophistication.',
             'author' => 'Leonardo da Vinci',
-            'avatar' => 'image'
-        ]
+            'avatar' => 'image',
+        ],
     ];
 
     /** @test */
