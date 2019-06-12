@@ -2,11 +2,11 @@
 
 namespace Cion\InspirationalQuotes\Tests;
 
-use Cion\InspirationalQuotes\Facades\InspirationalQuote;
-use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Artisan;
+use Cion\InspirationalQuotes\Facades\InspirationalQuote;
 
-class QuoteFactoryTest extends TestCase
+class LaravelTest extends TestCase
 {
     /** @test */
     public function it_returns_a_quote_when_running_the_command()
