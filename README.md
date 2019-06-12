@@ -1,9 +1,10 @@
 # Laravel Inspirational Quotes
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/cion/laravel-inspirational-quotes.svg?style=flat-square)](https://packagist.org/packages/cion/laravel-inspirational-quotes)
-[![Build Status](https://img.shields.io/travis/cion/laravel-inspirational-quotes/master.svg?style=flat-square)](https://travis-ci.org/ci-on/laravel-inspirational-quotes)
-[![Quality Score](https://img.shields.io/scrutinizer/g/cion/laravel-inspirational-quotes.svg?style=flat-square)](https://scrutinizer-ci.com/g/ci-on/laravel-inspirational-quotes)
+[![Build Status](https://img.shields.io/travis/ci-on/laravel-inspirational-quotes/master.svg?style=flat-square)](https://travis-ci.org/ci-on/laravel-inspirational-quotes)
+[![Quality Score](https://img.shields.io/scrutinizer/g/ci-on/laravel-inspirational-quotes.svg?style=flat-square)](https://scrutinizer-ci.com/g/ci-on/laravel-inspirational-quotes)
 [![Total Downloads](https://img.shields.io/packagist/dt/cion/laravel-inspirational-quotes.svg?style=flat-square)](https://packagist.org/packages/ci-on/laravel-inspirational-quotes)
+[![StyleCI](https://github.styleci.io/repos/179175924/shield?branch=master)](https://github.styleci.io/repos/179175924)
 
 This package will generate an inspirational quote for you. Similar to Laravel's default `php artisan inspire`, it includes the same quotes plus more. Easily access the author name and author head shot as well.
 
