@@ -7,7 +7,7 @@ use Cion\InspirationalQuotes\Facades\InspirationalQuote as Inspiration;
 
 class InspirationalQuote extends Command
 {
-    protected $signature = 'inspiration';
+    protected $signature = 'inspire';
 
     protected $description = 'Output an inspirational quote.';
 
