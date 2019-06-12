@@ -5,7 +5,7 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/cion/laravel-inspirational-quotes.svg?style=flat-square)](https://scrutinizer-ci.com/g/ci-on/laravel-inspirational-quotes)
 [![Total Downloads](https://img.shields.io/packagist/dt/cion/laravel-inspirational-quotes.svg?style=flat-square)](https://packagist.org/packages/ci-on/laravel-inspirational-quotes)
 
-This package will generate an inspirational quote for you. Similar to Laravel's default `php artisan inspire`, but it includes many more quotes, author images, and filters.
+This package will generate an inspirational quote for you. Similar to Laravel's default `php artisan inspire`, it includes the same quotes plus more. Easily access the author name and author head shot as well.
 
 ## Installation
 
@@ -15,10 +15,16 @@ You can install the package via composer:
 composer require cion/laravel-inspirational-quotes
 ```
 
+The service provider and alias will automatically get registered.
+
 ## Usage
 
+``` bash
+php artisan inspire
+```
+
 ``` php
-// Usage description here
+$quote = InspirationalQuote::getRandomQuote();
 ```
 
 ### Testing
