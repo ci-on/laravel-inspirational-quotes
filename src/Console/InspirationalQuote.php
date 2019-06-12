@@ -13,6 +13,8 @@ class InspirationalQuote extends Command
 
     public function handle()
     {
-        $this->info(Inspiration::getRandomQuote()['quote'].' - '.Inspiration::getRandomQuote()['by']);
+        $randomQuote = Inspiration::getRandomQuote();
+
+        $this->info("{$randomQuote['quote']} - {$randomQuote['by']}");
     }
 }

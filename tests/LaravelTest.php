@@ -15,10 +15,9 @@ class LaravelTest extends TestCase
 
         $this->artisan('inspiration');
 
-        $quotes = InspirationalQuote::quotes();
-
-        $quote = Str::before(Artisan::output(), ' - ');
-
-        $this->assertContains($quote, $quotes);
+        $this->assertContains(
+            Str::before(Artisan::output(), ' - '),
+            collect(InspirationalQuote::quotes())->pluck('quote')
+        );
     }
 }
