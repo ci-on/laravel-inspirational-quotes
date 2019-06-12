@@ -3,9 +3,22 @@
 namespace Cion\InspirationalQuotes;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
+use Cion\InspirationalQuotes\Console\InspirationalQuote;
 
 class ServiceProvider extends BaseServiceProvider
 {
+    /**
+     * Bootstrap the application services.
+     */
+    public function boot()
+    {
+        if ($this->app->runningInConsole()) {
+            $this->commands([
+                InspirationalQuote::class,
+            ]);
+        }
+    }
+
     /**
      * Register the application services.
      */

@@ -7,12 +7,12 @@ use Cion\InspirationalQuotes\Facades\InspirationalQuote as Inspiration;
 
 class InspirationalQuote extends Command
 {
-    protected $signature = 'inspire';
+    protected $signature = 'inspiration';
 
     protected $description = 'Output an inspirational quote.';
 
     public function handle()
     {
-        $this->info(Inspiration::getRandomQuote());
+        $this->info(Inspiration::getRandomQuote()['quote'] . ' - ' . Inspiration::getRandomQuote()['by']);
     }
 }

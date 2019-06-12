@@ -18,6 +18,50 @@ class QuoteFactory
                 'by' => 'Leonardo da Vinci',
                 'avatar' => 'https://i.imgur.com/fk7VpK6.png',
             ], [
+                'quote' => 'Simplicity is the essence of happiness.',
+                'by' => 'Cedric Bledsoe',
+                'avatar' => '',
+            ], [
+                'quote' => 'Smile, breathe, and go slowly.',
+                'by' => 'Thich Nhat Hanh',
+                'avatar' => 'https://i.imgur.com/5dGaFFm.png',
+            ], [
+                'quote' => 'Simplicity is an acquired taste.',
+                'by' => 'Katharine Gerould',
+                'avatar' => 'https://i.imgur.com/kw0NM6i.png',
+            ], [
+                'quote' => 'Well begun is half done.',
+                'by' => 'Aristotle',
+                'avatar' => 'https://i.imgur.com/rdA2eXg.jpg',
+            ], [
+                'quote' => 'He who is contented is rich.',
+                'by' => 'Laozi',
+                'avatar' => 'https://i.imgur.com/hcfQHVk.png',
+            ], [
+                'quote' => 'Very little is needed to make a happy life.',
+                'by' => 'Marcus Antoninus',
+                'avatar' => 'https://i.imgur.com/3pzscGh.png',
+            ], [
+                'quote' => 'It is quality rather than quantity that matters.',
+                'by' => 'Lucius Annaeus Seneca',
+                'avatar' => 'https://i.imgur.com/wPZwH3H.png',
+            ], [
+                'quote' => 'Genius is one percent inspiration and ninety-nine percent perspiration.',
+                'by' => 'Thomas Edison',
+                'avatar' => 'https://i.imgur.com/djylt3R.png',
+            ], [
+                'quote' => 'Computer science is no more about computers than astronomy is about telescopes.',
+                'by' => 'Edsger Dijkstra',
+                'avatar' => 'https://i.imgur.com/GBvkWlP.png',
+            ], [
+                'quote' => 'It always seems impossible until it is done.',
+                'by' => 'Nelson Mandela',
+                'avatar' => 'https://i.imgur.com/o8d2eiJ.png',
+            ], [
+                'quote' => 'Act only according to that maxim whereby you can, at the same time, will that it should become a universal law.',
+                'by' => 'Immanuel Kant',
+                'avatar' => 'https://i.imgur.com/D9MZScY.png',
+            ], [
                 'quote' => 'Don’t judge each day by the harvest you reap but by the seeds that you plant.',
                 'by' => 'Robert Louis Stevenson',
                 'avatar' => 'https://i.imgur.com/I9GMkBS.png',
