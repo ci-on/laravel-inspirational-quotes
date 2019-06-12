@@ -13,7 +13,7 @@ class LaravelTest extends TestCase
     {
         $this->withoutMockingConsoleOutput();
 
-        $this->artisan('inspiration');
+        $this->artisan('inspire');
 
         $this->assertContains(
             Str::before(Artisan::output(), ' - '),
