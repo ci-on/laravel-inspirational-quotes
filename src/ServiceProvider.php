@@ -2,8 +2,8 @@
 
 namespace Cion\InspirationalQuotes;
 
-use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 use Cion\InspirationalQuotes\Console\InspirationalQuote;
+use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
 class ServiceProvider extends BaseServiceProvider
 {
