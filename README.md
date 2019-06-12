@@ -26,6 +26,13 @@ php artisan inspire
 
 ``` php
 $quote = InspirationalQuote::getRandomQuote();
+
+// $quote output
+[
+    'quote' => 'Simplicity is the ultimate sophistication.',
+    'by' => 'Leonardo da Vinci',
+    'avatar' => 'https://i.imgur.com/fk7VpK6.png',
+]
 ```
 
 ### Testing
